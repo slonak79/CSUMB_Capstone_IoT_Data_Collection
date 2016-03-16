@@ -3,7 +3,7 @@
  */
 var https = require('https');
 
-function httpsHandler() {
+    function httpsHandler() {
 
         this.token = "Token R2GQJQVnd4rXW71Z70FnWxMe-8Zp8VVYfEEdtJgbj7tn";
 
