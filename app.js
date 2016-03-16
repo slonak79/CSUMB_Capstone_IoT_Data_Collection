@@ -63,9 +63,9 @@ app.use(function(err, req, res, next) {
 
 var all = new placeMeterReq();
 
-var allPoints = all.getAllPoints();
+//var allPoints = all.getAllPoints();
 
-var aPoint = all.getAllPoints();
+var aPoint = all.getSinglePoint("4145");
 
 ///////////////////////////////
 module.exports = app;
